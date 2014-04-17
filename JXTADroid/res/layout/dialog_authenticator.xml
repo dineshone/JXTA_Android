@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/Layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:columnCount="1"
+    tools:context=".jxta.impl.membership.pse.DialogAuthenticatorActivity" >
+
+    <EditText
+        android:id="@+id/editText1"
+        android:layout_width="204dp"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/editText2"
+        android:layout_alignTop="@+id/TextView01"
+        android:layout_column="0"
+        android:layout_gravity="right|top"
+        android:layout_row="0"
+        android:layout_toRightOf="@+id/TextView01"
+        android:ems="10"
+        android:inputType="textPassword" />
+
+    <TextView
+        android:id="@+id/TextView01"
+        android:layout_width="112dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="false"
+        android:layout_alignParentTop="true"
+        android:layout_column="0"
+        android:layout_gravity="left|center_vertical"
+        android:layout_row="0"
+        android:text="@string/KeyStorePassword"
+        android:textAlignment="viewEnd"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/textView2"
+        android:layout_column="0"
+        android:layout_gravity="right|top"
+        android:layout_row="6"
+        android:layout_toRightOf="@+id/textView2"
+        android:ems="10"
+        android:inputType="textWebEmailAddress" />
+
+    <TextView
+        android:id="@+id/TextView02"
+        android:layout_width="112dp"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/TextView01"
+        android:layout_below="@+id/editText2"
+        android:layout_column="0"
+        android:layout_gravity="left|top"
+        android:layout_row="10"
+        android:text="@string/IdentityPassword"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <EditText
+        android:id="@+id/EditText01"
+        android:layout_width="204dp"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/editText1"
+        android:layout_alignRight="@+id/editText2"
+        android:layout_alignTop="@+id/TextView02"
+        android:layout_column="0"
+        android:layout_gravity="right|top"
+        android:layout_row="10"
+        android:ems="10"
+        android:inputType="textPassword" >
+
+        <requestFocus />
+    </EditText>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="88dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignRight="@+id/TextView01"
+        android:layout_below="@+id/TextView01"
+        android:text="@string/Identity"
+        android:textAlignment="textEnd"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/TextView02"
+        android:layout_marginTop="64dp"
+        android:layout_toLeftOf="@+id/EditText01"
+        android:onClick="OK_Button"
+        android:text="@string/OK_Button" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/button1"
+        android:layout_alignBottom="@+id/button1"
+        android:layout_alignLeft="@+id/EditText01"
+        android:layout_marginLeft="63dp"
+        android:onClick="Cancel_Button"
+        android:text="@string/Cancel_Button" />
+
+</RelativeLayout>

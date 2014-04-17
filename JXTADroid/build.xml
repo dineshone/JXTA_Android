@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- WARNING: Eclipse auto-generated file.
+              Any modifications will be overwritten.
+              To include a user specific buildfile here, simply create one in the same
+              directory with the processing instruction <?eclipse.ant.import?>
+              as the first entry and export the buildfile again. --><project basedir="." default="build" name="d0d0Droid">
+    <property environment="env"/>
+    <property name="ECLIPSE_HOME" value="../../../../Program Files/Eclipse/eclipse-SDK-4.2-win32-x86_64/eclipse"/>
+    <property name="debuglevel" value="source,lines,vars"/>
+    <property name="target" value="1.6"/>
+    <property name="source" value="1.6"/>
+    <path id="Android 4.2.2.libraryclasspath">
+        <pathelement location="../../../../Program Files (x86)/Android/android-sdk/platforms/android-17/android.jar"/>
+    </path>
+    <path id="Android Private Libraries.libraryclasspath">
+        <pathelement location="libs/android-support-v4.jar"/>
+    </path>
+    <path id="Android Dependencies.libraryclasspath"/>
+    <path id="JXTA.userclasspath">
+        <pathelement location="../../Documents/Code/JXSE/jxse-src-2.5/jxse-src-2.5/lib/bcprov-jdk14.jar"/>
+        <pathelement location="../../Documents/Code/JXSE/jxse-src-2.5/jxse-src-2.5/lib/javax.servlet.jar"/>
+        <pathelement location="../../Documents/Code/JXSE/jxse-src-2.5/jxse-src-2.5/lib/org.mortbay.jetty.jar"/>
+        <pathelement location="../../../../JXSE27/lib/bouncycastle/bcprov-jdk15-145.jar"/>
+        <pathelement location="../../../../JXSE27/lib/derby/derby-10.5.1.1.jar"/>
+        <pathelement location="../../../../JXSE27/lib/derby/derbyLocale_cs.jar"/>
+        <pathelement location="../../../../JXSE27/lib/derby/derbyLocale_de_DE.jar"/>
+        <pathelement location="../../../../JXSE27/lib/derby/derbyLocale_es.jar"/>
+        <pathelement location="../../../../JXSE27/lib/derby/derbyLocale_fr.jar"/>
+        <pathelement location="../../../../JXSE27/lib/derby/derbyLocale_hu.jar"/>
+        <pathelement location="../../../../JXSE27/lib/derby/derbyLocale_it.jar"/>
+        <pathelement location="../../../../JXSE27/lib/derby/derbyLocale_ja_JP.jar"/>
+        <pathelement location="../../../../JXSE27/lib/derby/derbyLocale_ko_KR.jar"/>
+        <pathelement location="../../../../JXSE27/lib/derby/derbyLocale_pl.jar"/>
+        <pathelement location="../../../../JXSE27/lib/derby/derbyLocale_pt_BR.jar"/>
+        <pathelement location="../../../../JXSE27/lib/derby/derbyLocale_ru.jar"/>
+        <pathelement location="../../../../JXSE27/lib/derby/derbyLocale_zh_CN.jar"/>
+        <pathelement location="../../../../JXSE27/lib/derby/derbyLocale_zh_TW.jar"/>
+        <pathelement location="../../../../JXSE27/lib/felix/felix.jar"/>
+        <pathelement location="../../../../JXSE27/lib/h2/h2-1.2.127.jar"/>
+        <pathelement location="../../../../JXSE27/lib/jetty/javax.servlet.jar"/>
+        <pathelement location="../../../../JXSE27/lib/jetty/org.mortbay.jetty.jar"/>
+        <pathelement location="../../../../JXSE27/lib/jmock-2.5.1/cglib-2.1_3-src.jar"/>
+        <pathelement location="../../../../JXSE27/lib/jmock-2.5.1/cglib-nodep-2.1_3.jar"/>
+        <pathelement location="../../../../JXSE27/lib/jmock-2.5.1/hamcrest-core-1.1.jar"/>
+        <pathelement location="../../../../JXSE27/lib/jmock-2.5.1/hamcrest-library-1.1.jar"/>
+        <pathelement location="../../../../JXSE27/lib/jmock-2.5.1/jmock-2.5.1.jar"/>
+        <pathelement location="../../../../JXSE27/lib/jmock-2.5.1/jmock-junit3-2.5.1.jar"/>
+        <pathelement location="../../../../JXSE27/lib/jmock-2.5.1/jmock-junit4-2.5.1.jar"/>
+        <pathelement location="../../../../JXSE27/lib/jmock-2.5.1/jmock-legacy-2.5.1.jar"/>
+        <pathelement location="../../../../JXSE27/lib/junit/junit-4.4.jar"/>
+        <pathelement location="../../../../JXSE27/lib/netty/netty-3.1.5.GA.jar"/>
+        <pathelement location="../../../../JXSE27/lib/netty/httptunnel-0.92.jar"/>
+    </path>
+    <path id="d0d0Droid.classpath">
+        <pathelement location="bin/classes"/>
+        <path refid="Android 4.2.2.libraryclasspath"/>
+        <path refid="Android Private Libraries.libraryclasspath"/>
+        <path refid="Android Dependencies.libraryclasspath"/>
+        <path refid="JXTA.userclasspath"/>
+        <pathelement location="../../../../Program Files (x86)/Android/android-sdk/platforms/android-17/android.jar"/>
+    </path>
+    <path id="run.Password.classpath">
+        <path refid="Android 4.2.2.libraryclasspath"/>
+        <path refid="d0d0Droid.classpath"/>
+    </path>
+    <path id="run.Password.bootclasspath"/>
+    <target name="init">
+        <mkdir dir="bin/classes"/>
+        <copy includeemptydirs="false" todir="bin/classes">
+            <fileset dir="src">
+                <exclude name="**/*.ucls"/>
+                <exclude name="**/*.useq"/>
+                <exclude name="**/*.java"/>
+            </fileset>
+        </copy>
+        <copy includeemptydirs="false" todir="bin/classes">
+            <fileset dir="gen">
+                <exclude name="**/*.ucls"/>
+                <exclude name="**/*.useq"/>
+                <exclude name="**/*.java"/>
+            </fileset>
+        </copy>
+    </target>
+    <target name="clean">
+        <delete dir="bin/classes"/>
+    </target>
+    <target depends="clean" name="cleanall"/>
+    <target depends="build-subprojects,build-project" name="build"/>
+    <target name="build-subprojects"/>
+    <target depends="init" name="build-project">
+        <echo message="${ant.project.name}: ${ant.file}"/>
+        <javac debug="true" debuglevel="${debuglevel}" destdir="bin/classes" includeantruntime="false" source="${source}" target="${target}">
+            <src path="src"/>
+            <src path="gen"/>
+            <classpath refid="d0d0Droid.classpath"/>
+        </javac>
+    </target>
+    <target description="Build all projects which reference this project. Useful to propagate changes." name="build-refprojects"/>
+    <target description="copy Eclipse compiler jars to ant lib directory" name="init-eclipse-compiler">
+        <copy todir="${ant.library.dir}">
+            <fileset dir="${ECLIPSE_HOME}/plugins" includes="org.eclipse.jdt.core_*.jar"/>
+        </copy>
+        <unzip dest="${ant.library.dir}">
+            <patternset includes="jdtCompilerAdapter.jar"/>
+            <fileset dir="${ECLIPSE_HOME}/plugins" includes="org.eclipse.jdt.core_*.jar"/>
+        </unzip>
+    </target>
+    <target description="compile project with Eclipse compiler" name="build-eclipse-compiler">
+        <property name="build.compiler" value="org.eclipse.jdt.core.JDTCompilerAdapter"/>
+        <antcall target="build"/>
+    </target>
+    <target name="Password">
+        <java classname="net.jxta.impl.util.Password" failonerror="true" fork="yes">
+            <classpath refid="run.Password.classpath"/>
+            <bootclasspath>
+                <path refid="run.Password.bootclasspath"/>
+            </bootclasspath>
+        </java>
+    </target>
+</project>

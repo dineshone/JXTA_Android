@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="src" path="gen"/>
+	<classpathentry kind="con" path="com.android.ide.eclipse.adt.ANDROID_FRAMEWORK"/>
+	<classpathentry exported="true" kind="con" path="com.android.ide.eclipse.adt.LIBRARIES"/>
+	<classpathentry exported="true" kind="con" path="com.android.ide.eclipse.adt.DEPENDENCIES"/>
+	<classpathentry kind="lib" path="libs/android-support-v4.jar"/>
+	<classpathentry kind="lib" path="libs/bcprov-jdk15-145.jar"/>
+	<classpathentry kind="lib" path="libs/httptunnel-0.92.jar"/>
+	<classpathentry kind="lib" path="libs/junit-4.4.jar"/>
+	<classpathentry kind="lib" path="libs/netty-3.6.6.Final.jar"/>
+	<classpathentry kind="lib" path="libs/jetty/javax.servlet.jar"/>
+	<classpathentry kind="lib" path="libs/jetty/org.mortbay.jetty.jar"/>
+	<classpathentry kind="lib" path="libs/jmock-2.5.1/cglib-2.1_3-src.jar"/>
+	<classpathentry kind="lib" path="libs/jmock-2.5.1/cglib-nodep-2.1_3.jar"/>
+	<classpathentry kind="lib" path="libs/jmock-2.5.1/hamcrest-core-1.1.jar"/>
+	<classpathentry kind="lib" path="libs/jmock-2.5.1/hamcrest-library-1.1.jar"/>
+	<classpathentry kind="lib" path="libs/jmock-2.5.1/jmock-2.5.1.jar"/>
+	<classpathentry kind="lib" path="libs/jmock-2.5.1/jmock-junit3-2.5.1.jar"/>
+	<classpathentry kind="lib" path="libs/jmock-2.5.1/jmock-junit4-2.5.1.jar"/>
+	<classpathentry kind="lib" path="libs/jmock-2.5.1/jmock-legacy-2.5.1.jar"/>
+	<classpathentry kind="lib" path="libs/felix/felix.jar"/>
+	<classpathentry kind="lib" path="libs/derby/derby-10.5.1.1.jar"/>
+	<classpathentry kind="lib" path="libs/derby/derbyLocale_cs.jar"/>
+	<classpathentry kind="lib" path="libs/derby/derbyLocale_de_DE.jar"/>
+	<classpathentry kind="lib" path="libs/derby/derbyLocale_es.jar"/>
+	<classpathentry kind="lib" path="libs/derby/derbyLocale_fr.jar"/>
+	<classpathentry kind="lib" path="libs/derby/derbyLocale_hu.jar"/>
+	<classpathentry kind="lib" path="libs/derby/derbyLocale_it.jar"/>
+	<classpathentry kind="lib" path="libs/derby/derbyLocale_ja_JP.jar"/>
+	<classpathentry kind="lib" path="libs/derby/derbyLocale_ko_KR.jar"/>
+	<classpathentry kind="lib" path="libs/derby/derbyLocale_pl.jar"/>
+	<classpathentry kind="lib" path="libs/derby/derbyLocale_pt_BR.jar"/>
+	<classpathentry kind="lib" path="libs/derby/derbyLocale_ru.jar"/>
+	<classpathentry kind="lib" path="libs/derby/derbyLocale_zh_CN.jar"/>
+	<classpathentry kind="lib" path="libs/derby/derbyLocale_zh_TW.jar"/>
+	<classpathentry kind="output" path="bin/classes"/>
+</classpath>

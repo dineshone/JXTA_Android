@@ -1,0 +1,2 @@
+net.jxta.impl.content.defprovider.DefaultContentProvider
+net.jxta.impl.content.srdisocket.SRDISocketContentProvider

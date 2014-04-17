@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">d0d0</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="Send">Send</string>
+    <string name="IncomingSpeech">Incoming Incoming Speech</string>
+    <string name="Incoming"></string>
+    <string name="User2">User2</string>
+    <string name="User1">User1</string>
+    <string name="Record">Press to Record</string>
+    <string name="DroidDialogAuthenticator_Title">Initialize JXTA KeyStore</string>
+    <string name="DialogAuthenticator_title">Initialize JXTA Keystore</string>
+    <string name="KeyStorePassword">Key Store Password</string>
+    <string name="Identity">Identity</string>
+    <string name="IdentityPassword">Identity Password</string>
+    <string name="OK_Button">OK</string>
+    <string name="Cancel_Button">Cancel</string>
+    <string name="SpeechRecognizerService">:SpeechRecognizerService</string>
+    <string name="ScreenTextButtonON">Screen ON</string>
+    <string name="ScreenTextButtonOFF">Screen OFF</string>
+    <string name="VoiceButtonTextOn">Voice Commands ON</string>
+    <string name="VoiceButtonTextOFF">Voice Command OFF</string>
+
+</resources>

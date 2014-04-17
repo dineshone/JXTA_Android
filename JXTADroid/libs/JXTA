@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="WINDOWS-1252" standalone="no"?>
+<eclipse-userlibraries version="2">
+    <library name="JXTA" systemlibrary="false">
+        <archive path="C:/Users/d0d0/Documents/Code/JXSE/jxse-src-2.5/jxse-src-2.5/lib/javax.servlet.jar"/>
+        <archive path="C:/Users/d0d0/Documents/Code/JXSE/jxse-src-2.5/jxse-src-2.5/lib/org.mortbay.jetty.jar"/>
+        <archive path="C:/Users/d0d0/Documents/Code/Library/JXTA/bouncycastle/bcprov-jdk15-145.jar"/>
+        <archive path="C:/Users/d0d0/Documents/Code/Library/JXTA/derby/derby-10.5.1.1.jar"/>
+        <archive path="C:/Users/d0d0/Documents/Code/Library/JXTA/derby/derbyLocale_cs.jar"/>
+        <archive path="C:/Users/d0d0/Documents/Code/Library/JXTA/derby/derbyLocale_de_DE.jar"/>
+        <archive path="C:/Users/d0d0/Documents/Code/Library/JXTA/derby/derbyLocale_es.jar"/>
+        <archive path="C:/Users/d0d0/Documents/Code/Library/JXTA/derby/derbyLocale_fr.jar"/>
+        <archive path="C:/Users/d0d0/Documents/Code/Library/JXTA/derby/derbyLocale_hu.jar"/>
+        <archive path="C:/Users/d0d0/Documents/Code/Library/JXTA/derby/derbyLocale_it.jar"/>
+        <archive path="C:/Users/d0d0/Documents/Code/Library/JXTA/derby/derbyLocale_ja_JP.jar"/>
+        <archive path="C:/Users/d0d0/Documents/Code/Library/JXTA/derby/derbyLocale_ko_KR.jar"/>
+        <archive path="C:/Users/d0d0/Documents/Code/Library/JXTA/derby/derbyLocale_pl.jar"/>
+        <archive path="C:/Users/d0d0/Documents/Code/Library/JXTA/derby/derbyLocale_pt_BR.jar"/>
+        <archive path="C:/Users/d0d0/Documents/Code/Library/JXTA/derby/derbyLocale_ru.jar"/>
+        <archive path="C:/Users/d0d0/Documents/Code/Library/JXTA/derby/derbyLocale_zh_CN.jar"/>
+        <archive path="C:/Users/d0d0/Documents/Code/Library/JXTA/derby/derbyLocale_zh_TW.jar"/>
+        <archive path="C:/Users/d0d0/Documents/Code/Library/JXTA/felix/felix.jar"/>
+        <archive path="C:/Users/d0d0/Documents/Code/Library/JXTA/h2/h2-1.2.127.jar"/>
+        <archive path="C:/Users/d0d0/Documents/Code/Library/JXTA/jetty/javax.servlet.jar"/>
+        <archive path="C:/Users/d0d0/Documents/Code/Library/JXTA/jetty/org.mortbay.jetty.jar"/>
+        <archive path="C:/Users/d0d0/Documents/Code/Library/JXTA/jmock-2.5.1/cglib-2.1_3-src.jar"/>
+        <archive path="C:/Users/d0d0/Documents/Code/Library/JXTA/jmock-2.5.1/cglib-nodep-2.1_3.jar"/>
+        <archive path="C:/Users/d0d0/Documents/Code/Library/JXTA/jmock-2.5.1/hamcrest-core-1.1.jar"/>
+        <archive path="C:/Users/d0d0/Documents/Code/Library/JXTA/jmock-2.5.1/hamcrest-library-1.1.jar"/>
+        <archive path="C:/Users/d0d0/Documents/Code/Library/JXTA/jmock-2.5.1/jmock-2.5.1.jar"/>
+        <archive path="C:/Users/d0d0/Documents/Code/Library/JXTA/jmock-2.5.1/jmock-junit3-2.5.1.jar"/>
+        <archive path="C:/Users/d0d0/Documents/Code/Library/JXTA/jmock-2.5.1/jmock-junit4-2.5.1.jar"/>
+        <archive path="C:/Users/d0d0/Documents/Code/Library/JXTA/jmock-2.5.1/jmock-legacy-2.5.1.jar"/>
+        <archive path="C:/Users/d0d0/Documents/Code/Library/JXTA/junit/junit-4.4.jar"/>
+        <archive path="C:/Users/d0d0/Documents/Code/Library/JXTA/netty/httptunnel-0.92.jar"/>
+        <archive path="C:/Users/d0d0/Documents/Code/netty-3.6.6.Final/jar/netty-3.6.6.Final.jar" source="C:/Users/d0d0/Documents/Code/netty-3.6.6.Final/jar/netty-3.6.6.Final-sources.jar"/>
+    </library>
+</eclipse-userlibraries>

@@ -1,0 +1,3 @@
+net.jxta.impl.id.UUID.IDFormat
+net.jxta.impl.id.CBID.IDFormat
+net.jxta.impl.id.binaryID.IDFormat
