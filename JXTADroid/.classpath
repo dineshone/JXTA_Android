@@ -35,5 +35,10 @@
 	<classpathentry kind="lib" path="libs/derby/derbyLocale_ru.jar"/>
 	<classpathentry kind="lib" path="libs/derby/derbyLocale_zh_CN.jar"/>
 	<classpathentry kind="lib" path="libs/derby/derbyLocale_zh_TW.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files (x86)/Android/android-sdk/extras/google/google_play_services/libproject/google-play-services_lib/libs/google-play-services.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="file:/C:/Program%20Files%20(x86)/Android/android-sdk/extras/google/google_play_services/libproject/google-play-services_lib/libs/../../../docs/reference/"/>
+		</attributes>
+	</classpathentry>
 	<classpathentry kind="output" path="bin/classes"/>
 </classpath>

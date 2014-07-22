@@ -13,7 +13,11 @@ import android.view.MotionEvent;
 import android.view.View;
 import android.widget.ToggleButton;
 
+import com.android.d0d0.Interface.IMediator;
+import com.android.d0d0.mediator.Mediator;
 
+import com.android.d0d0.SpeechService.d0d0SpeechService;
+import com.android.d0d0.SpeechService.d0d0SpeechService.LocalBinder;
 import com.android.d0d0.util.SystemUiHider;
 /**
  * An example full-screen activity that shows and hides the system UI (i.e.
@@ -25,6 +29,9 @@ public class FullscreenActivity extends Activity {
 	
 	public static Context context = ApplicationClass.getApplicationClassContext();
 	
+	public static IMediator mediator = new Mediator() ;
+	
+	public d0d0SpeechService speechService; 
 	static boolean mBound = false;
 	
 	/**
@@ -78,11 +85,10 @@ public class FullscreenActivity extends Activity {
 		// created, to briefly hint to the user that UI controls
 		// are available.
 		delayedHide(10);
-		
-		// Here is the call to start JXTA. 
-		droidEdge.startJXTA();
-		
-		
+//		startSpeechService();
+//		startJxtaThread();
+//		startMapActivity();
+		startReportGridActivity();
 		
 	}
 
@@ -141,5 +147,89 @@ public class FullscreenActivity extends Activity {
 	}
 	
 	
+	public void startMapActivity(){
+		Intent startMapIntent = new Intent(context, MapActivity.class);
+		startActivity(startMapIntent);
+		
+	}
 	
+
+	public void startReportGridActivity(){
+		Intent startReportGridIntent = new Intent(context, ReportGridActivity.class);
+		startActivity(startReportGridIntent);
+		
+	}
+	
+	/**
+	 * 
+	 */
+	public  void startSpeechService() {
+		Thread threadService = new Thread(){
+		
+			public void run(){
+				Intent startServiceIntent = new Intent(context, d0d0SpeechService.class);
+				mBound = bindService(startServiceIntent, speechServiceConnection,Context.BIND_AUTO_CREATE);
+				
+				if(mBound == true){
+				
+				}
+			
+			}
+		};
+		 
+		threadService.start();
+		
+	}
+
+	/**
+	 * 
+	 */	
+	public static void stopSpeechService() {
+				Intent stopServiceIntent = new Intent(context, d0d0SpeechService.class);
+				context.stopService(stopServiceIntent);		
+	}
+	
+	
+
+	/** Defines callback for service binding, passed to bindService() */
+     private ServiceConnection speechServiceConnection = new ServiceConnection() {
+
+        @Override
+        public void onServiceConnected(ComponentName className, IBinder service) {
+            // We've bound to LocalService, cast the IBinder and get LocalService instance
+            LocalBinder binder =  (LocalBinder) service;
+            speechService = binder.getService();
+            mBound = true;
+            speechService.setMediator(mediator);
+			speechService.startAllServices();
+        }
+
+        @Override
+        public void onServiceDisconnected(ComponentName arg0) {
+            mBound = false;
+        }
+
+		
+    };
+    
+
+
+    
+    /**
+	 * 
+	 */
+	public  void startJxtaThread() {
+		Thread threadJxta = new Thread(){
+		
+			public void run(){
+				
+				mediator.startJXTA();
+				
+			}
+		};
+		 
+		threadJxta.start();
+		
+	}
+    
 }

@@ -5,7 +5,7 @@
     <string name="dummy_button">Dummy Button</string>
     <string name="dummy_content">DUMMY\nCONTENT</string>
     <string name="Send">Send</string>
-    <string name="IncomingSpeech">Incoming Incoming Speech</string>
+    <string name="IncomingSpeech">Incoming Speech</string>
     <string name="Incoming"></string>
     <string name="User2">User2</string>
     <string name="User1">User1</string>
@@ -22,5 +22,15 @@
     <string name="ScreenTextButtonOFF">Screen OFF</string>
     <string name="VoiceButtonTextOn">Voice Commands ON</string>
     <string name="VoiceButtonTextOFF">Voice Command OFF</string>
+    <string name="title_activity_map">MapActivity</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="move_the_camera">Move the camera</string>
+    <string name="tap_instructions">Tap or long press on the map</string>
+    <string name="title_activity_keyboard">KeyboardActivity</string>
+    <string name="title_activity_key_board">KeyBoardActivity</string>
+    <string name="title_activity_report_grid">ReportGridActivity</string>
+    <string name="Number_Zero">0</string>
+    <string name="title_activity_activity_record_message">Activity_record_message</string>
 
 </resources>

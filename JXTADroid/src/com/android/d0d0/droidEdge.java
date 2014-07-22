@@ -7,7 +7,7 @@ import java.text.MessageFormat;
 import java.util.Enumeration;
 import java.util.logging.Logger;
 
-
+import com.android.d0d0.SpeechService.d0d0SpeechService;
 
 import net.jxta.access.AccessService;
 import net.jxta.content.ContentService;
@@ -34,10 +34,12 @@ import android.content.ComponentName;
 import android.content.Context;
 import android.content.Intent;
 
-
+//import javax.swing.JOptionPane;
 
 /**
- * This is the static class that access JXTA services
+ * A simple example which demonstrates the most basic JXTA operations. This
+ * program configures the peer, starts JXTA, waits until the peer joins the
+ * network and then concludes by stopping JXTA.
  */
 public final class droidEdge {
 
@@ -61,7 +63,7 @@ public final class droidEdge {
 			PeerGroupID.defaultNetPeerGroupID, d0d0EDGEdroid.getBytes());
 	final static int TcpPort_EDGE_A = 9705;
 	boolean dodoCalled = false;
-	private final static Logger LOG = Logger.getLogger(droidEdge.class
+	private final static Logger LOG = Logger.getLogger(d0d0SpeechService.class
 			.getName());
 
 	/**
@@ -193,7 +195,7 @@ public final class droidEdge {
 		MyNetworkConfigurator.clearRelaySeeds();
 
 		/*
-		 * String TheSeed = "tcp://" + "192.XXX.X.XX:9705";
+		 * String TheSeed = "tcp://" + "192.168.1.79:9705";
 		 * 
 		 * URI LocalRendezVousSeedURI = URI.create(TheSeed);
 		 * MyNetworkConfigurator.addSeedRendezvous(LocalRendezVousSeedURI);

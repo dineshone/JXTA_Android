@@ -40,7 +40,7 @@ public class DialogAuthenticatorActivity extends Activity  {
 	public void OK_Button(View view){
 		
 		OK_Button_Clicked = true;
-		KeyStorePassword = findViewById(R.id.editText1).toString();
+		KeyStorePassword = findViewById(R.id.keyStoreEditText).toString();
 		IdentityName = findViewById(R.id.editText2).toString();
 		IdentityPassword = findViewById(R.id.EditText01).toString();
 		
